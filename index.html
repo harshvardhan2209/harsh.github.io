@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
+    <title>Responsive Portfolio Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Portfolio</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!----- HOME ----->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am
+            <span class="home__title-color">Harshvardhan Bindage</span><br />
+            Welcome to Personal Portfolio Website
+          </h1>
+
+          <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://www.linkedin.com/in/harshbindage/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+
+          <a
+            href="https://github.com/harshvardhan2209"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+
+          <a
+            href="https://www.facebook.com/harshvardhan.bindage/"
+            class="home__social-icon"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <img
+            src="./Images/Home.jpg"
+            alt="Picture of a person coding"
+            width="60%"
+          />
+        </div>
+      </section>
+
+      <!---ABOUT --->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="./Images/Harsh.jpg" alt="Picture of me" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">
+              Masters Student at Portland State Univeristy
+            </h2>
+            <p class="about__text">
+              Pursuing the ML/AI and Database Track Course.Will also be taking
+              courses related to Web Development in the future. My aim is to
+              become a Software Developer.
+            </p>
+            <p>I love to go for hikes or play cricket during weekends</p>
+            <h4>Skills</h4>
+            <p>
+              <b>Programming Languages</b>: - Java, Python, C, C++, JavaScript,
+              HTML, CSS, SQL, NOSQL, TypeScript
+            </p>
+            <p><b>Technologies</b>: - Git, MYSQL, React.js, Node.js, Angular</p>
+            <p><b>Cloud </b>: - Azure, Docker, Kubernetes, AWS</p>
+            <p>
+              <b>Tools/IDE</b>: - VS Code, Code Pen, Sublime Text, Apache
+              Tomcat, Ajax & Restful APIs, PyCharm, Tableau, IntelliJ, Power BI,
+              Bootstrap
+            </p>
+            <p><b>Operating Systems</b>:-Windows, Linux, Mac OS</p>
+          </div>
+        </div>
+      </section>
+
+      <!---RESUME --->
+      <section class="resume section" id="resume">
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume__container bd-grid">
+          <div>
+            <h2 class="resume__subtitle">Experience</h2>
+            <p class="resume_text">
+              <i><b>Eduvance,Intern - Mumbai,India</b></i
+              ><br />
+              Designed a model to ensure the safety of an account during a
+              transaction in Python by using various data manipulation
+              techniques such as merging, reshaping and data cleaning features.
+            </p>
+          </div>
+        </div>
+        <br />
+
+        <div class="resume__container bd-grid">
+          <div>
+            <h2 class="resume__subtitle">Education</h2>
+            <p class="resume__text">
+              <i><b>Dehradun Institute of Technology Univeristy</b></i
+              ><br />
+              Bachelor of Technology in Computer Science & Engineering
+              <span>2017-2021</span>
+            </p>
+
+            <p class="resume__text">
+              <i><b>Portland State Univeristy</b></i
+              ><br />
+              Master of Science in Computer Science <br />
+              <span>2021-2023</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT -->
+      <section id="ProjectSection">
+        <div class="project_container text-center p-5" id="project">
+          <div class="section-title">Projects</div>
+          <div class="row m-0 pt-4">
+            <div class="col-lg-4">
+              <div class="card" data-aos="flip-left" style="width: 18rem">
+                <img
+                  src="./Images/IRC.jpg"
+                  class="card-img-top"
+                  alt="Image of Internet Relay Chat"
+                />
+                <div class="card-body">
+                  <h5 class="card-title ProjectTitle">Internet Relay Chat</h5>
+                  <p class="card-text">
+                    Developed a chat application which allows multiple users or
+                    clients to connect to a common server and chat securely,
+                    where users can create and list multiple rooms, join or
+                    leave chat rooms, broadcast the message, or send messages
+                    privately to other users.
+                  </p>
+                  <a href="" class="btn btn-primary rounded-pill"
+                    >Project Link</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" data-aos="flip-right" style="width: 18rem">
+                <img
+                  src="./Images/Weather App.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title ProjectTitle">Weather Application</h5>
+                  <p class="card-text">
+                    Designed a weather application using Vanilla JS and used
+                    OpenWeatherAPI to get weather details of the user city
+                    entered or user’s current location.
+                  </p>
+                  <a
+                    href="https://github.com/harshvardhan2209/Weather-App-.git"
+                    class="btn btn-primary rounded-pill"
+                    >Project Link</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" data-aos="flip-left" style="width: 18rem">
+                <img src="./Images/DDoS.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title ProjectTitle">
+                    Prediction of DDoS Attack using ML techniques
+                  </h5>
+                  <p class="card-text">
+                    Designed a hybrid algorithm which consists of combination of
+                    several ML techniques (Naïve-Bayes, SVM, KNN) to train a
+                    model which can detect and classify different types of DDoS
+                    attacks with greater accuracy than compared to individual
+                    model.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---CONTACT --->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="email" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="button" value="Enter" class="contact__button button" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
