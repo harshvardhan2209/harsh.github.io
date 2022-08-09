@@ -117,6 +117,7 @@ img {
 }
 
 /*-- NAV --*/
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -150,10 +151,9 @@ img {
   color: var(--second-color);
 }
 
-.nav__logo:hover{
-    color: var(--first-color);
-    text-decoration: none;
-
+.nav__logo:hover {
+  color: var(--first-color);
+  text-decoration: none;
 }
 .nav__toggle {
   color: var(--second-color);
