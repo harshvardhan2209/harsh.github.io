@@ -117,7 +117,6 @@ img {
 }
 
 /*-- NAV --*/
-
 .nav {
   height: var(--header-height);
   display: flex;
@@ -147,13 +146,9 @@ img {
 .nav__link:hover {
   position: relative;
 }
+
 .nav__logo {
   color: var(--second-color);
-}
-
-.nav__logo:hover {
-  color: var(--first-color);
-  text-decoration: none;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -172,7 +167,7 @@ img {
   background-color: var(--first-color);
 }
 
-/*--- HOME ----*/
+/*--- HOME */
 .home {
   height: calc(100vh - 3rem);
   row-gap: 1rem;
