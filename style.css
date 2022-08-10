@@ -145,6 +145,8 @@ img {
 }
 .nav__link:hover {
   position: relative;
+  color:blue;
+  text-decoration:underline;
 }
 
 .nav__logo {
